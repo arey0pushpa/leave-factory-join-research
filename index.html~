@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+
+		<head>
+				<meta charset="utf-8"/>
+
+				<title>Stop Coding Pack your bags and get ready for Research</title>
+
+				<meta name="description" content="What Every Hipster Should Know About Functional Programming"/>
+				<meta name="author" content="sabbath" />
+
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+				<link rel="stylesheet" href="css/reveal.min.css"/>
+				<link rel="stylesheet" href="css/theme/hipster.css" id="theme"/>
+
+				<!-- For syntax highlighting -->
+				<link rel="stylesheet" href="lib/css/tomorrow-night-eighties.css"/>
+
+				<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+				<script>
+						document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+				</script>
+
+		</head>
+
+		<body>
+
+				<div class="reveal">
+
+						<!-- Any section element inside of this container is displayed as a slide -->
+						<div class="slides">
+
+
+								<section>
+<p>								Stop Coding Pack your bags <br/>	 and get ready for Research</p>
+										<img src="m/twilight-sparkle.png"/>
+								
+								</section>
+         
+								<section>
+										<img src="m/gogo.jpg"  />
+									
+								</section>
+								
+<section>
+     
+      <img src="m/headline.jpg" alt="">
+      <div class="pic-label quote">
+												<div class="big"> 1. The Story !</div>
+										
+										</div>
+</section>
+
+<section>
+<p>Erik Meijer & SPJ</p>
+<img src="m/eric.jpg" alt="" height="400" width="400"> <img src="m/simon.jpg" alt="" height="400" width="400">
+</section>
+
+<section>
+<p>Tell dad tht you are into research</p>
+<img src="m/1.jpg" alt="" height="450">
+</section>
+
+
+
+
+<section>
+ <p>Curse Of Jobs :</p>
+  <img src="m/5.jpg" alt="">
+
+</section>
+
+								<section class="title-slide">
+										April Tech Talk
+										<img src="m/the-four-hipsters.jpeg"/>
+										
+								</section>
+
+<section>
+<p>Curse Of the Research !</p>
+<img src="m/4.gif" alt="">
+</section>
+       <section>
+       
+        <img src="m/home1.png" alt="" height="600" width="500">       
+       </section> 
+<section>
+<img src="m/2.jpg" alt="">
+</section>
+
+
+				
+								<section>
+				
+                        <p>2. Work & Problems</p>				
+										<img src="m/3.gif"/ height="450" width="800">
+            					
+								</section>
+								
+								
+								
+								<section>
+										<img class="plain" src="m/rarity.jpg" height="500" width ="850"/>
+                              
+								</section>
+
+								<section>
+								<p>Formal Methods</p>
+										<pre class="repl"><code>
+▹ Definition :
+  
+  "Formal methods are a particular kind of mathematically 
+   based techniques for the specification, development and 
+   Verification of software and hardware systems."
+                
+▹ Use :
+   
+   To check whether a system behaves correctly with
+   respect to some Specification, of its desired behavior.
+</code>	</pre>
+										
+            
+            
+         
+										<aside class="notes">
+                                            At the
+other end are techniques of much more modest power—modest enough that
+automatic checkers can be built into compilers, linkers, or program analyzers and thus be applied even by programmers unfamiliar with the underlying
+theories. One well-known instance of this sort of lightweight formal methods
+is model checkers, tools that search for errors in finite-state systems such as
+chip designs or communication protocols. Another that is growing in popularity is run-time monitoring, a collection of techniques that allow a system to
+detect, dynamically, when one of its components is not behaving according
+to specification. But by far the most popular and best established lightweight
+formal methods are type systems, the central focus of this book.
+												Show square(8).
+												Show andThree(square).
+												Show andThree(square)(8).
+										</aside>
+								</section>
+        
+        
+        
+								<section>
+								<p>Spectrum</p>
+<pre class="repl"><code>
+Powerful frameworks such as  :
+
+    1. Hoare logic
+    2. Algebraic specification languages
+    3. Modal logics
+    4. Denotational semantics.
+</code></pre>
+
+<pre><code>
+Lightweight formal methods :
+
+    1. Model checkers
+    2. Run-time monitoring
+    3. Type systems
+</code>
+</pre>
+         
+         
+         
+										<aside class="notes">
+                                            hi i'm here
+												Show square(8).
+												Show andThree(square).
+												Show andThree(square)(8).
+										</aside>
+								</section>
+
+
+										<aside class="notes">
+												Discover that hello is a variable.
+												Reassign: ohai = hello;
+												Create the invoke function.
+										</aside>
+								</section>
+								
+								         
+        
+                                
+         
+          <section>
+								<p>Lightweight Methods</p>
+                                 <pre><code>
+      • Run Time Monitoring :
+ A collection of techniques that allow a system to detect 
+ dynamically when one of its components is not behaving
+ according to specification. 
+                                </code></pre>
+                                <pre><code>
+• Type Systems :
+ A type system is a tractable syntactic method for
+ proving the absence of certain program behaviors 
+ by classifying phrases according to the kinds
+of values they compute.
+                                </code></pre>
+                               </section>
+                                
+										
+					
+					<section>	
+                        
+                       
+                        <img class="plain" src="m/c.jpg"/>
+										
+                       
+                        </section>
+                        <section>				
+<pre><code>Model Checking and Verification </code></pre>
+		
+        <pre><code> * The verification problem is:
+   
+  Given program M and specification h determine
+  whether or not the behavior of M meets the
+  Specification h.
+        </code></pre>			
+ <pre>
+     * Model Checking:
+ Model checking is a method for automatic (and algorithmic)
+ Verification of finite state systems.
+ 
+ Goal : Expand the scope of automated techniques
+        for program reasoning.
+ 
+</pre>
+										</section>
+
+<section>
+<pre><code>Bounded Model Checking with SAT</code></pre>
+<pre><code>
+ Given a Boolean formula (propositional logic formula), 
+ Find a variable assignment such that the formula evaluates
+ to 1 or prove that no such assignment exists.
+
+ F = (a + b).(a’ + b’ + c)
+
+ For n variables, there are 2n possible truth assignments
+ to be checked.
+</code></pre>
+
+<pre>
+  First established NP-Complete problem.
+ - S. A. Cook, Third Annual ACM Symp. 
+  on the Theory of Computing,1971, 151-158
+
+</pre>
+</section>
+<section>
+<img class="plain" src="m/f2.jpg"/>
+</section>
+
+
+<section>
+<pre><code>
+Model checkers typically have three main components: 
+
+(1) A Specification language, based on propositional TL
+(2) A way of encoding a state machine representing 
+    The system to be verified, and 
+(3) A Verification procedure that uses an intelligent
+    Exhaustive search of the state space to determine 
+    if the specification is true or not.
+    
+</pre></code>
+
+<pre>
+ If the specification is not satisfied, then most model
+ checkers will produce a counterexample execution trace
+ that shows why the specification does not hold.
+ 
+ The counterexamples are invaluable in debugging
+ complex systems.
+</pre>
+</section>
+<section>
+<pre><code>Bug Catching with SAT-Solvers</code><img  src="m/e.png"/></pre>
+</section>
+
+<section>
+    <p>CBMC</p>
+<pre><code>
+    CBMC is a Bounded Model Checker for C and C++ programs.
+
+    It allows verifying array bounds (buffer overflows), 
+    pointer safety, ex­cep­tions & user-specified as­ser­tions.
+    
+    The verification is performed by unwinding the loops 
+    in the program and passing the re­sul­ting equation to
+    a decision procedure.
+
+
+</code></pre>
+
+</section>
+<section>
+<pre><code>
+Algorithm DPLL
+  Input: A set of clauses Φ.
+  Output: A Truth Value.
+</code></pre>
+<pre><code>function DPLL(Φ)
+   if Φ is a consistent set of literals
+       then return true;
+   if Φ contains an empty clause
+       then return false;
+   for every unit clause l in Φ
+      Φ ← unit-propagate(l, Φ);
+   for every literal l that occurs pure in Φ
+      Φ ← pure-literal-assign(l, Φ);
+   l ← choose-literal(Φ);
+   return DPLL(Φ ∧ l) or DPLL(Φ ∧ not(l));
+</code></pre>
+</section>
+
+<section>
+    <pre>History of the SAT Problem :</pre>
+<pre><code>
+• Davis Putnam - Resolution based, 1960, 
+  later Search based algorithm, 1962
+  
+• Proved NP Complete by Cook, 1971
+
+• Stalmarcks algorithm - Patented, 1995
+
+• Conflict driven Learning and Non chronological 
+  backtracking in GRASP, 1996
+
+• Local Search, 1997
+
+• SATO - DPLL Based, 1997
+
+• Chaff - DPLL Based, 2001
+
+• BerkMin - DPLL Based, 2002
+
+</code></pre>
+</section>            
+         <section>
+
+<img src="m/6.jpg" alt="" height="450" width="750">
+
+</section>
+      <Section>
+      <pre>PROJECT WORK</pre>
+      <pre><code>Application of SAT for modeling and analyzing a
+             problem related to application in biology.
+             - M. Thattai, NCBS</code></pre>
+<pre>
+    Currently Studying the biological problems related 
+    in this area and use Sat Solver via Model Checking
+    to found some efficient implementation that leads
+    to get desired query results or study behaviour 
+    of such complex system.
+    </pre>             
+      </Section>
+      
+ <section>
+    <p>NCBS</p>     
+<img src="m/12.gif" alt="" >  
+                   </section>      
+      
+      <Section>
+        <pre><code>MODELLING CELL EVOLUTION :</code></pre>
+        <pre><code>
+        Model cell evolution as a transition function
+
+  Update and delete table.
+  - Think Them as two dimensional table.
+  - Possibility at each place is 0/1
+
+  Constraints on them. 
+  - Exactly one possibility for update table
+  - At least one possibility for delete table
+  - Allow only subsets to have 1's for delete table
+        </code></pre>
+        </Section>
+        
+        <section>
+        <pre>POSE INTERESTING  SAT QUERIES</pre>
+        <pre><code>
+    "Is there an update'delete configuration and initial
+     state configuration which doesn't converge to a 
+     equilibrium state before N iterations,for some N"
+        </code></pre>
+<pre><code>
+     "What is the minimum number of steps required for
+     every possible update/delete table configuration
+     guaranteed to converge to an equilibrium state?"
+     
+     </code></pre>
+
+        </section>
+   
+<section>
+
+<img src="m/7.jpg" alt="" height="450" width="750">
+</section>  
+
+<section>
+
+<pre><code>
+ Pointer Analysis :
+ </pre></code>
+ <pre><code>
+ For Each pointer (reference) in the program , 
+ what memory location(Object) does it points to.
+ 
+ "Statically determine the possibile run-time 
+  values of a pointer."
+
+ TradeOff : Precision and Efficiency 
+ 
+ Efficiency Of analysis and precision of Computed Solution
+</code></pre>
+</section> 
+
+<section><pre><code>
+<p>Paper '2001 :</p>  
+ Haven't we Solved The pointer Analysis Problem '01 ?
+ 
+ 1. Flow Sensativity :
+     Use Control flow information.
+ 
+ 2. Context Sensative : 
+     Take account of calling context.
+ 
+</code></pre>
+</section>
+                   
+                   
+                   <section>
+                   
+<img src="m/10.jpg" alt="">                   
+                   </section>
+                   
+                  
+<section>
+Charged Advices : 
+<pre><code>
+ 
+ 1. Alpha Coder & || Xor Theory 
+ 
+ 2. Beta Coder  & || Xor Theory 
+ 
+ 3. Gamma Coded & || Xor Theory 
+ 
+ 4. Delta Coder & || Xor Theory 
+ 
+</code></pre>
+
+</section>
+
+<section>
+<pre><code>
+  Phd's and Research education is about the  :</pre></code>
+  <pre><code>
+   "Thinking Scientifically"
+
+   " Writing precisely, formally"
+   
+</code></pre>
+</section>
+<section>
+<pre><code>
+ "Classes dulls your mind but Vannila Jobs 
+   Cause Multiple Orgen Failure "
+</pre></code>
+<pre><code>
+Main Points :
+
+ 1. Don't be afraid of failing !
+   
+ 2. Take Risks. Live Dangereously, at peaks. 
+ 
+ 3. Stop being Dumb! Have a sense of humour. 
+ 
+
+</pre></code>
+
+
+
+</section>
+								<section>
+<p>Questions ?</p>
+										<img class="plain" src="m/wat.jpg"/>
+								</section>
+
+						</div>
+
+				</div>
+
+				<script src="lib/js/head.min.js"></script>
+				<script src="js/reveal.js"></script>
+
+				<script type="text/javascript">
+
+						// Full list of configuration options available here:
+						// https://github.com/hakimel/reveal.js#configuration
+						Reveal.initialize({
+								controls: false,
+								progress: false,
+								history: true,
+								center: true,
+								mouseWheel: true,
+								rollingLinks: false,
+
+								theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+								transition: Reveal.getQueryHash().transition || 'zoom', // default/cube/page/concave/zoom/linear/none
+
+								// Optional libraries used to extend on reveal.js
+								dependencies: [
+										{ src: 'lib/js/underscore.js', async: true, condition: function() { return true; } },
+										{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+										{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+										{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+										{ src: 'plugin/prettify/prettify.js', async: true, callback: function() {
+												var i, els = document.querySelectorAll("code"), l = els.length, el;
+												for (i = 0; i < l; i++) {
+														el = els[i];
+														if (el.className !== "no-highlight")
+																el.innerHTML = prettyPrintOne(el.innerHTML, el.className);
+												}
+										} },
+										{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+										{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+										{ src: 'plugin/catnip/catnip.js', async: true, condition: function() { return window.parent !== window; } },
+										{ src: 'plugin/repl/ace/ace.js', async: true },
+										{ src: 'plugin/repl/typescript.js', async: true },
+										{ src: 'plugin/repl/repl.js', async: true }
+										// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+								]
+						});
+
+				</script>
+
+		</body>
+</html>
